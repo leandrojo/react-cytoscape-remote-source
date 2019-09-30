@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "lerna": "^3.4.1",
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "cytoscape": "^3.10.1",
+    "cytoscape-edgehandles": "^3.6.0",
+    "express": "4.15.2",
+    "socket.io": "^2.3.0"
+  }
+}

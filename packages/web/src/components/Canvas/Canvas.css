@@ -1,0 +1,16 @@
+.canvas {
+  background: #585858;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.actions {
+  background: red;
+  z-index: 1000;
+  padding: 10px;
+  position: absolute;
+}
