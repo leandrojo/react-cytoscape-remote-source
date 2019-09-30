@@ -1,4 +1,4 @@
-/* global io */
+/* global document, io */
 /* eslint-disable no-console */
 /* eslint-disable react/jsx-filename-extension */
 
@@ -102,7 +102,8 @@ const Canvas = () => {
   };
 
   React.useEffect(() => {
-    const socket = io('http://localhost:8080');
+    const { hostname } = document.location;
+    const socket = io(`http://${hostname}:8080`);
 
     const cy = cytoscape({
       container: ref.current,
